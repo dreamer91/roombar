@@ -1,0 +1,22 @@
+menuitems: [
+	menuitem: {
+		name: "Main"
+		description: "desc1"
+		count: 12
+	},
+	menuitem: {
+		name: "Drinks"
+		description: "desc1"
+		count: 15
+	},
+	menuitem: {
+		name: "Salads"
+		description: "desc1"
+		count: 14
+	},
+	menuitem: {
+		name: "Desserts"
+		description: "desc1"
+		count: 16
+	}
+]

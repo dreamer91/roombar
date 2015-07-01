@@ -1,0 +1,126 @@
+/* 
+BASIC ROOMBAR CSS Styles
+*/
+@import url(http://fonts.googleapis.com/css?family=Signika:600|Varela+Round);
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+html, body {
+  height: 100%;
+  color: #2e2e2e;
+  background-color: #f3f1f1;
+  font-family: "Signika", sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+section {
+  padding: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
+}
+
+ul li {
+    display: inline;
+    letter-spacing: normal; /* Reset letter-spacing to normal value */
+}
+
+a:link, a:visited, a:hover, a:active, a:focus {
+	text-decoration: none;
+  outline: none;
+}
+
+.offset-right {
+  margin-right: 1rem;
+}
+
+.offset-left {
+  margin-left: 1rem;
+}
+
+/* ROOMBAR Grid Layout */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col"] {
+  float: left;
+}
+
+/* ROOMBAR Font */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+[class*="fontawesome-"]:before {
+  font-family: 'fontawesome', sans-serif;
+}
+
+/* ROOMBAR Colors (TODO: Use LESS)*/
+.bg-light-blue {
+  background-color: #54c0d6;
+}
+.bg-yellow {
+  background-color: #fec356;
+}
+.bg-red {
+  background-color: #cb2027;
+}
+
+.cl-dark-grey {
+  color: #606060
+}
+.cl-dark-blue {
+  color: #3C485F
+}
+.cl-yellow {
+  color: #fec356;
+}
+.cl-red {
+  color: #cb2027;
+}
+
+/*==================================================
+ * BOX Shadow Effect
+ * ===============================================*/
+.shadow {
+  -webkit-box-shadow: 0 10px 20px #777;
+  -moz-box-shadow: 0 10px 20px #777;
+  box-shadow: 0 10px 20px #777;
+}
+
+/* Slide animation */
+.slide-down {
+  opacity: 0.95;
+}
+
+.slide-up {
+  opacity: 0;
+}
